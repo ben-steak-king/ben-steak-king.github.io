@@ -2550,7 +2550,7 @@ body {
 	}
 
 	.menu-container {
-		margin-top: 6rem;
+		margin-top: 0.5rem;
 		display: flex;
 		padding: 0rem 18rem;
 		gap: 1rem;
@@ -2560,6 +2560,12 @@ body {
 		flex-direction: column;
 		padding: 2rem;
 		gap: 2rem;
+		padding-top: 0;
+	}
+
+	.menu-img {
+		padding: 0 8rem;
+		padding-top: 0;
 	}
 
 	.overlay {
@@ -2645,8 +2651,9 @@ body {
 	}
 	.main-content {
 		margin-top: 3.2rem;
-		padding-top: rem;
+		padding-top: 0rem;
 		text-align: center;
+		
 	}
 
 	.background-logo {
@@ -2791,7 +2798,7 @@ body {
 	} */
 
 	.promotion_img {
-		width: 70%;
+		width: 60%;
 		margin: auto;
 		display: flex;
 		flex-grow: 1;
@@ -2891,7 +2898,7 @@ body {
 	}
 
 	.text-block {
-		margin-top: 6.2rem;
+		margin-top: 2rem;
 	}
 
 	.reviews-container {
@@ -2928,7 +2935,11 @@ body {
 	}
 
 	.review_undertitle {
-		min-height: 9rem;
+		min-height: 6rem;
+	}
+
+	.about_us_para{
+		font-size: 1.6rem;
 	}
 }
 
