@@ -8,14 +8,22 @@ function loadTranslations(language) {
 
 	const lunch = document.getElementById("lunch");
 	const dinner = document.getElementById("dinner");
+	
+	const lunch_download = document.getElementById("lunch_download");
+	const dinner_download = document.getElementById("dinner_download");
+
 
 	if (lunch && dinner) {
 		if (language === "zh") {
-			lunch.src = "images/menu_lunch_zh.png";
-			dinner.src = "images/menu_dinner_zh.png";
+			lunch.src = "images/lunch_chin.png";
+			dinner.src = "images/dinner_chin.png";
+			lunch_download.href = "images/lunch_chin.png";
+			dinner_download.href = "images/dinner_chin.png";
 		} else {
-			lunch.src = "images/Menu Picanha Lunch.png";
-			dinner.src = "images/Menu Picanha dinner.png";
+			lunch.src = "images/lunch_eng.png";
+			dinner.src = "images/dinner_eng.png";
+			lunch_download.href = "images/lunch_eng.png";
+			dinner_download.href = "images/dinner_eng.png";
 		}
 	}
 
