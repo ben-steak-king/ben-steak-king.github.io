@@ -1824,6 +1824,7 @@ body {
 		display: flex;
 		flex-direction: column;
 		padding: 0.6rem 2rem 3rem 2rem;
+		height: auto;
 	}
 
 	.contacts {
@@ -2320,9 +2321,10 @@ body {
 		display: flex;
 		flex-direction: row;
 		width: 100vw;
-		height: 21rem;
+		height: auto;
 		padding: 0 4rem;
 		margin-bottom: 2rem;
+		
 	}
 
 	.contacts {
@@ -2361,13 +2363,13 @@ body {
 
 	.contacts_image {
 		padding: 1rem;
-		height: 100%;
+		height: auto;
 		width: 40%;
 		min-width: 28rem;
 		margin: auto 0;
 		margin-right: 5rem;
-		aspect-ratio: 1/1;
 	}
+
 	.contacts .icon-text div p {
 		margin: auto 0;
 	}
