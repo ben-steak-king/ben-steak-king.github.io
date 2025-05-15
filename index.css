@@ -529,7 +529,7 @@ body {
 	.background-black {
 		position: relative;
 		width: 100vw;
-		height: 100vh;
+		height: 100dvh;
 		overflow: hidden; /* Ensures no overflow from the video */
 		color: #ece5db;
 	}
@@ -1036,7 +1036,7 @@ body {
 	.background-black {
 		position: relative;
 		width: 100vw;
-		height: 100vh;
+		height: 100dvh;
 		overflow: hidden; /* Ensures no overflow from the video */
 		color: #ece5db;
 	}
@@ -1578,7 +1578,7 @@ body {
 	.background-black {
 		position: relative;
 		width: 100vw;
-		height: 100vh;
+		height: 100dvh;
 		overflow: hidden; /* Ensures no overflow from the video */
 		color: #ece5db;
 	}
@@ -2100,7 +2100,7 @@ body {
 	.background-black {
 		position: relative;
 		width: 100vw;
-		height: 100vh;
+		height: 100dvh;
 		overflow: hidden; /* Ensures no overflow from the video */
 		color: #ece5db;
 	}
@@ -2635,7 +2635,7 @@ body {
 	.background-black {
 		position: relative;
 		width: 100vw;
-		height: 100vh;
+		height: 100dvh;
 		overflow: hidden; /* Ensures no overflow from the video */
 		color: #ece5db;
 	}
