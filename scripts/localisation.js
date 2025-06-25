@@ -16,9 +16,9 @@ function loadTranslations(language) {
 	if (lunch && dinner) {
 		if (language === "zh") {
 			lunch.src = "images/lunch_chin.png";
-			dinner.src = "images/dinner_chin.png";
+			dinner.src = "images/dinner_chin.jpg";
 			lunch_download.href = "images/lunch_chin.png";
-			dinner_download.href = "images/dinner_chin.png";
+			dinner_download.href = "images/dinner_chin.jpg";
 		} else {
 			lunch.src = "images/lunch_eng.png";
 			dinner.src = "images/dinner_eng.png";
