@@ -8,22 +8,27 @@ function loadTranslations(language) {
 
 	const lunch = document.getElementById("lunch");
 	const dinner = document.getElementById("dinner");
-	
+	const booze = document.getElementById("booze");
+
 	const lunch_download = document.getElementById("lunch_download");
 	const dinner_download = document.getElementById("dinner_download");
-
+	const booze_download = document.getElementById("booze_download");
 
 	if (lunch && dinner) {
 		if (language === "zh") {
-			lunch.src = "images/lunch_chin.png";
+			lunch.src = "images/lunch_chin.jpg";
 			dinner.src = "images/dinner_chin.jpg";
-			lunch_download.href = "images/lunch_chin.png";
+			booze.src = "images/booze_eng.png";
+			lunch_download.href = "images/lunch_chin.jpg";
 			dinner_download.href = "images/dinner_chin.jpg";
+			booze_download.src = "images/booze_eng.png";
 		} else {
-			lunch.src = "images/lunch_eng.png";
-			dinner.src = "images/dinner_eng.png";
-			lunch_download.href = "images/lunch_eng.png";
-			dinner_download.href = "images/dinner_eng.png";
+			lunch.src = "images/lunch_eng.jpg";
+			dinner.src = "images/dinner_eng.jpg";
+			booze.src = "images/booze_eng.png";
+			lunch_download.href = "images/lunch_eng.jpg";
+			dinner_download.href = "images/dinner_eng.jpg";
+			booze_download.src = "images/booze_eng.png";
 		}
 	}
 
