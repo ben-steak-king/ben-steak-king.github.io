@@ -235,6 +235,15 @@ body {
 	height: calc(var(--vh, 1vh) * 100);
 }
 
+.about-us-container{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	max-width:80vw;
+	margin:0 auto;
+	
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
 
@@ -2279,6 +2288,7 @@ body {
 	.background-brown {
 		background-size: 100%; /* Zoom out by scaling the image */
 	}
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -2961,8 +2971,19 @@ body {
 	.about_us_para{
 		font-size: 1.6rem;
 	}
+
+	.about-us-container {
+		margin:auto;
+	}
+
 }
 
+
+.about-us-container .about-us-img {
+	object-fit: cover;
+	width:100%;
+
+}
 .no-border img {
 	border: none;
 }
