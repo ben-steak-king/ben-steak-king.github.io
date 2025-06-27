@@ -2478,6 +2478,7 @@ body {
 		text-decoration: underline;
 		cursor: pointer;
 		font-size: 3rem;
+		margin-top: 4rem;
 		margin-bottom: 3rem;
 	}
 
@@ -2925,7 +2926,7 @@ body {
 	}
 
 	.reviews-container {
-		margin-top: 2rem;
+		margin-top: 4rem;
 	}
 
 	.background-brown {
