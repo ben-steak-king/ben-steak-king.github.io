@@ -2982,6 +2982,10 @@ body {
 	.about-us-container {
 		margin: auto;
 	}
+
+	.about-us-img{
+		padding: 2rem 20rem 0 20rem;
+	}
 }
 
 .about-us-container .about-us-img {
