@@ -3116,10 +3116,6 @@ img {
 	display: block;
 }
 
-.main-content > h1 {
-	position: relative;
-	z-index: 10;
-}
 
 .main-content h1 {
 	width: fit-content;
