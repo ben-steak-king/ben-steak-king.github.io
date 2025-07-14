@@ -257,8 +257,16 @@ body {
 	align-items: center;
 }
 
-.hidden_gem_list img {
+.hidden_gem_list a {
+	overflow: hidden;
 	border-radius: 0.5rem;
+	aspect-ratio: 1/1;
+}
+
+.hidden_gem_list img {
+	aspect-ratio: 1/1;
+	height: 100%;
+	width: 100%;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -2372,7 +2380,7 @@ body {
 	}
 
 	.hidden_gem_list a {
-		width: 20%
+		width: 20%;
 	}
 
 	#coming-soon {
