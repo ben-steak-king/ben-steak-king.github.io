@@ -27,6 +27,18 @@
 	font-style: normal;
 }
 
+.review-button__ {
+	text-align: center;
+	text-decoration: underline;
+
+	font-weight: 800;
+}
+.review-button__ a {
+	margin: 0;
+	border-radius: 0.5rem;
+	background-color: #9b5639;
+}
+
 #coming-soon {
 	margin-top: 30rem;
 	font-size: 40rem;
@@ -271,6 +283,14 @@ body {
 
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
+	.review-button__ {
+		font-size: 1.5rem;
+		margin: 2rem 0;
+	}
+	.review-button__ a {
+		padding: 1rem;
+	}
+
 	.hidden_gem_list_container {
 		width: 90vw;
 		padding: 0;
@@ -762,6 +782,14 @@ body {
 
 /* Small devices (portrait tablets and large phones, 600px - 768) */
 @media screen and (min-width: 601px) and (max-width: 767px) {
+	.review-button__ {
+		font-size: 2rem;
+		margin: 3rem 0;
+	}
+	.review-button__ a {
+		padding: 1.5rem;
+	}
+
 	.hidden_gem_list_container {
 		width: 90vw;
 		padding: 1.2rem;
@@ -1290,6 +1318,14 @@ body {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media screen and (min-width: 768px) and (max-width: 991px) {
+	.review-button__ {
+		font-size: 2rem;
+		margin: 5rem 0 2rem 0;
+	}
+	.review-button__ a {
+		padding: 1.5rem;
+	}
+
 	.hidden_gem_list_container {
 		width: 90vw;
 		padding: 0.5rem;
@@ -1826,6 +1862,14 @@ body {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media screen and (min-width: 992px) and (max-width: 1259px) {
+	.review-button__ {
+		font-size: 2rem;
+		margin: 5rem 0 2rem 0;
+	}
+	.review-button__ a {
+		padding: 1.5rem;
+	}
+
 	.hidden_gem_list_container {
 		width: 90vw;
 		padding: 0.5rem;
@@ -2370,6 +2414,14 @@ body {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media screen and (min-width: 1260px) {
+	.review-button__ {
+		font-size: 2.5rem;
+		margin: 5rem 0 2rem 0;
+	}
+	.review-button__ a {
+		padding: 1.5rem;
+	}
+
 	.hidden_gem_list_container {
 		width: 95vw;
 		padding: 0.5rem;
@@ -3115,7 +3167,6 @@ img {
 	object-fit: cover;
 	display: block;
 }
-
 
 .main-content h1 {
 	width: fit-content;
