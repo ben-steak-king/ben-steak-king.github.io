@@ -260,7 +260,7 @@ body {
 	display: flex;
 	position: relative;
 	flex-grow: 1;
-	flex:1;
+	flex: 1;
 }
 
 .promotion_list {
@@ -319,6 +319,7 @@ body {
 
 	.promotion_list > div {
 		width: 100%;
+		min-height: 70vh;
 	}
 
 	.review {
@@ -634,7 +635,6 @@ body {
 		margin-top: 4rem;
 		padding-top: rem;
 		text-align: center;
-		
 	}
 
 	.background-logo {
@@ -825,7 +825,8 @@ body {
 		gap: 1.5rem;
 	}
 	.promotion_list > div {
-		width: 100%;
+		width: 80%;
+		min-height: 70vh;
 	}
 
 	.promotion_list_container {
@@ -1381,7 +1382,8 @@ body {
 	}
 
 	.promotion_list > div {
-		width: 100%;
+		width: 80%;
+		min-height: 70vh;
 	}
 
 	.hidden_gem_list {
@@ -1946,7 +1948,8 @@ body {
 	}
 
 	.promotion_list > div {
-		width: 100%;
+		width: 80%;
+		min-height: 70vh;
 	}
 
 	#coming-soon {
@@ -2513,6 +2516,7 @@ body {
 
 	.promotion_list > div {
 		width: 30%;
+		min-height: 100vh;
 	}
 
 	#coming-soon {
@@ -3250,6 +3254,6 @@ img {
 
 .main-content h1 {
 	width: fit-content;
-	margin-left:auto;
+	margin-left: auto;
 	margin-right: auto;
 }
