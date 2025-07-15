@@ -132,6 +132,7 @@ p {
 .main-content {
 	padding-bottom: 2rem;
 }
+
 .overlay {
 	background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0));
 	z-index: 1;
@@ -255,6 +256,21 @@ body {
 	margin: 0 auto;
 }
 
+.promotion_list_container {
+	display: flex;
+	position: relative;
+	flex-grow: 1;
+	flex:1;
+}
+
+.promotion_list {
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
 .hidden_gem_list_container {
 	display: block;
 	position: relative;
@@ -294,6 +310,15 @@ body {
 	.hidden_gem_list_container {
 		width: 90vw;
 		padding: 0;
+	}
+
+	.promotion_list_container {
+		width: 90vw;
+		padding: 0;
+	}
+
+	.promotion_list > div {
+		width: 100%;
 	}
 
 	.review {
@@ -609,6 +634,7 @@ body {
 		margin-top: 4rem;
 		padding-top: rem;
 		text-align: center;
+		
 	}
 
 	.background-logo {
@@ -796,6 +822,18 @@ body {
 	}
 
 	.hidden_gem_list {
+		gap: 1.5rem;
+	}
+	.promotion_list > div {
+		width: 100%;
+	}
+
+	.promotion_list_container {
+		width: 90vw;
+		padding: 1.2rem;
+	}
+
+	.promotion_list {
 		gap: 1.5rem;
 	}
 
@@ -1330,6 +1368,20 @@ body {
 		width: 90vw;
 		padding: 0.5rem;
 		margin: auto;
+	}
+
+	.promotion_list_container {
+		width: 90vw;
+		padding: 0.5rem;
+		margin: auto;
+	}
+
+	.promotion_list {
+		gap: 0.5rem;
+	}
+
+	.promotion_list > div {
+		width: 100%;
 	}
 
 	.hidden_gem_list {
@@ -1881,6 +1933,20 @@ body {
 
 	.hidden_gem_list a {
 		width: 30%;
+	}
+
+	.promotion_list_container {
+		width: 90vw;
+		padding: 0.5rem;
+		margin: auto;
+	}
+
+	.promotion_list {
+		gap: 0.5rem;
+	}
+
+	.promotion_list > div {
+		width: 100%;
 	}
 
 	#coming-soon {
@@ -2435,6 +2501,20 @@ body {
 		width: 20%;
 	}
 
+	.promotion_list_container {
+		width: 90vw;
+		padding: 0.5rem;
+		margin: auto;
+	}
+
+	.promotion_list {
+		gap: 0.5rem;
+	}
+
+	.promotion_list > div {
+		width: 30%;
+	}
+
 	#coming-soon {
 		margin-top: 15rem;
 	}
@@ -2632,7 +2712,7 @@ body {
 	}
 
 	h1 {
-		margin-bottom: 1.5rem;
+		margin-bottom: 2.6rem;
 		padding-top: 0rem;
 		text-decoration: underline;
 	}
@@ -3170,5 +3250,6 @@ img {
 
 .main-content h1 {
 	width: fit-content;
-	margin: 0 auto;
+	margin-left:auto;
+	margin-right: auto;
 }
