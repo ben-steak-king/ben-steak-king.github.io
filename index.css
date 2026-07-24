@@ -3264,7 +3264,7 @@ img {
 	overflow: visible;
 	margin: 0 auto;
 	border-radius: 0.75rem;
-	background: #4b4b4b;
+	/* background: #4b4b4b; */
 }
 
 .promotions-page .promotions-list-container .promotion_img img {
