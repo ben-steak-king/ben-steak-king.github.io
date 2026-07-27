@@ -23,11 +23,11 @@ function loadTranslations(language) {
 			dinner_download.href = "images/Picanhas'Restaurant_menu_dinner_chin.jpg";
 			booze_download.src = "images/Picanhas'RestaurantHK_menu_booze_eng.png"; //should be chinese, no chinese menu rn
 		} else {
-			lunch.src = "images/Picanhas'Restaurant_menu_lunch_eng.jpg";
-			dinner.src = "images/Picanhas'Restaurant_menu_dinner_eng.jpg";
+			lunch.src = "images/Picanhas Menu Lunch -eng.jpg";
+			dinner.src = "images/Picanhas Menu Dinner -eng.jpg";
 			booze.src = "images/Picanhas'RestaurantHK_menu_booze_eng.png";
-			lunch_download.href = "images/Picanhas'Restaurant_menu_lunch_eng.jpg";
-			dinner_download.href = "images/Picanhas'Restaurant_menu_dinner_eng.jpg";
+			lunch_download.href = "images/Picanhas Menu Lunch -eng.jpg";
+			dinner_download.href = "images/Picanhas Menu Dinner -eng.jpg";
 			booze_download.src = "images/Picanhas'RestaurantHK_menu_booze_eng.png";
 		}
 	}
